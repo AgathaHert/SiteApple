@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Apple</title>
+</head>
+
+<body>
+
+  <div class="header">
+    <image class="logo" src="./assets/logo.png" alt="Logo Apple"></image>
+    <ul>
+      <li>Mac</li>
+      <li>iPad</li>
+      <li>iPhone</li>
+      <li>Watch</li>
+      <li>Airpods</li>
+      <li>Acessórios</li>
+      <li>Suporte</li>
+    </ul>
+  </div>
+
+  <div class="container">
+
+    <div class="text">
+      <h1>Iphone 14</h1>
+      <h2>Tão poderoso. Tão ao seu alcance.</h2>
+      <p class="description">Em dois tamanhos perfeitos. Agora com um toque de amarelo</p>
+      <p class="price">A partir de R$ 633,25/mês ou R$ 7.599*</p>
+      <button class="buy">Comprar</button>
+      <p class="cor">Escolha sua cor:</p>
+      <div>
+        <button class="azul circle" onclick="changeColor('#81a5c4'); changeImage('./assets/iphone-azul.png')"></button>
+        <button class="amarelo circle"
+          onclick="changeColor('#f4da47'); changeImage('./assets/iphone-amarelo.png')"></button>
+        <button class="branco circle"
+          onclick="changeColor('#c1c1c1'); changeImage('./assets/iphone-branco.png')"></button>
+        <button class="preto circle"
+          onclick="changeColor('#272d33'); changeImage('./assets/iphone-preto.png')"></button>
+        <button class="vermelho circle"
+          onclick="changeColor('#b50012'); changeImage('./assets/iphone-vermelho.png')"></button>
+        <button class="roxo circle" onclick="changeColor('#ede7f1'); changeImage('./assets/iphone-roxo.png')"></button>
+      </div>
+    </div>
+
+    <div class="circulo-iphone"></div>
+    <img class="iphone" src="./assets/iphone-azul.png" alt="Iphone azul">
+
+  </div>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
